@@ -1,0 +1,122 @@
+@media  (max-width: 670Px) {
+    header {
+        height: 68px;
+        padding: 0 23px;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburger {
+        width: 18px;
+        height: 15px;
+    }
+    .nav-lines {
+        display: block;
+    }
+    .nav-lines:hover {
+        background-color: lightgray;
+        border-radius: 5px;
+    }
+    /*---------- about us section-----------------------*/
+
+    .picture-text-container {
+        padding: 0 0 40px 0;
+    }
+    .page-picture {
+        width: 267px;
+    }
+    .page-header {
+        font-size: 32px;
+    }
+    .page-header-text {
+        max-width: 925px;
+        height: auto;
+        font-size: 16px;
+        line-height: 147.3%;
+        text-align: justify;
+    } 
+
+    /* ----------------------------- contacts section-- */
+
+    .contacts-container {
+        Height: 237px;
+    }
+    .contacts-header {
+        font-size: 24px;
+        margin: 0;
+        padding: 40px 0 0 0;
+    }  
+    .midle-div {
+        display: none;
+    }
+
+    .container-mail-phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0 0 0;
+    }
+
+    .text-mail-phone-info-container {
+      padding: 0 0 20px 0;
+    } 
+    
+    .text-mail-phone {
+        font-size: 12px;
+        padding: 0 0 5px 0;
+    }
+
+    .text-mail-phone-data {
+        font-size: 16px;
+    }
+
+/* -----------------------team container------------------------- */
+
+    .photo-employees-container {
+    padding: 30px 0 30px 0;
+    }
+
+    .photo-employee {
+        width: 80px;
+        margin: 0 43px 0;
+    }
+
+    .photo-employee-single {
+        width: 80px;
+    }
+
+    .employee-name {
+        padding: 15px 0 0 0;
+        font-size: 16px;
+        line-height: 23.57px;
+    }
+    .employee-position {
+        font-size: 12px;
+        padding: 1px 0 30px 0;
+        line-height: 17.68px;
+    }
+    /* -------------------------footer------------- */
+    
+    footer {  
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        background: #3F3D56;
+        height: 125px;
+    }
+    .skill-rights-text {
+        font-size: 16px;
+        opacity: 0.4;
+        color: #FFFFFF;
+        line-height: 18.75px;
+        margin: 0 0 0 20px;
+
+    }
+    .icons-container {
+        margin: 0 0 0 20px;
+    }
+    .icon {
+        margin: 0 14px 0 0;
+    }
+    
+}
